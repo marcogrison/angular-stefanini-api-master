@@ -1,0 +1,23 @@
+.table {
+    margin: 80px auto auto auto;
+    width: 65% !important;
+}
+
+table th {
+    text-align: center;
+}
+
+ #add {
+    position: relative;
+    top: -70px;
+    right: 150px;
+}  
+
+ #back { 
+    position: relative;
+    top: -70px;
+    right: 150px;
+} 
+
+
+

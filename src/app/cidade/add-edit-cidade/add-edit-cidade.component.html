@@ -1,0 +1,19 @@
+<form>
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" [(ngModel)]="nome" name="nome" maxlength="200">
+    </div>
+
+    <div class="mb-3">
+        <label for="uf" class="form-label">UF</label>
+        <input type="text" class="form-control" [(ngModel)]="uf" name="uf" maxlength="2">
+    </div>
+
+    <button (click)="addCidade()" *ngIf="cidade.id == 0" class="btn btn-primary">
+        Adicionar
+    </button>
+    
+    <button (click)="updateCidade()" *ngIf="cidade.id != 0" class="btn btn-primary">
+        Atualizar
+    </button>
+</form>
